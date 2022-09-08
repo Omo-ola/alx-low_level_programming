@@ -2,7 +2,7 @@
 #include <stdio.h>
 /*
 * main - main block
-* description - just a regular main function
+* description - the starting point of the program
 * Return: 0
 */
 int main(void)
