@@ -2,7 +2,7 @@
 /**
 *main - the function
 *description - starting point
-*return : 0
+*return : By default returns aero if no errors
 */
 int main(void)
 {
