@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-*main - the function
-*description - starting point
-*return : By default returns aero if no errors
+* main - main block
+* description - the starting point of the program
+* Return: 0
 */
 int main(void)
 {
