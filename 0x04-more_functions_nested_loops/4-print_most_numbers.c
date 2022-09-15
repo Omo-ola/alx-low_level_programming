@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_most_numbers - print
- * 
- * Return: return nothing
- */
+* print_most_numbers - print
+* Return: return nothing
+*/
 void print_most_numbers(void)
 {
 int n;
