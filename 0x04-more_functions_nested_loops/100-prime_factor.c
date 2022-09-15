@@ -1,20 +1,35 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
+
 /**
- * print_number - prints
- * @n - parameter
- */
-void print_number(int n)
+ * main - find prime number
+ *
+ * Description: find largest prime number of 612852475143
+ *
+ * Return: zero
+ **/
+
+int main(void)
 {
-unsigned int num = n;
-if (n > 0)
-{
-putchar('-');
-num -= num;
+	long int max, lower, test;
+
+	max = 612852475143;
+	lower = 2;
+	test = 2;
+
+	while (max > test)
+	{
+		if (max % test == 0)
+		{
+			lower = test;
+			max = max / lower;
+			test = lower + 1;
+		}
+		else
+			test++;
+	}
+	printf("%ld\n", max);
+	return (0);
 }
-if (num > 9)
-{
-print_number(num / 10);
-}
-putchar(num % 10 + '0');
-}
+Footer
+
