@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* reset  - checks if a character is uppercase or not
+* reset_to_98  - chnage the value of n
 * @n: character to be tested
 * Return: nothing
 */
