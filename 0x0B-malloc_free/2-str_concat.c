@@ -16,10 +16,10 @@ return (i);
 }
 /**
 *str_concat - back a pointer to array
- *@s1: Array one
- *@s2: Array two
-  *Return: Always an array dinamic
- */
+* @s1: Array one
+* @s2: Array two
+* Return: Always an array dinamic
+*/
 char *str_concat(char *s1, char *s2)
 {
 char *dst;
